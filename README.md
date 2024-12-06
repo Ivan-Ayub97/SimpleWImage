@@ -88,12 +88,6 @@ This software utilizes the following libraries:
 
 Special thanks to the developers of these libraries for their contributions to the open-source community.
 
-### Contributions
-We welcome contributions! To contribute:
-1. Fork the repository.
-2. Make your changes.
-3. Submit a pull request.
-
 ---
 
 Enjoy using SimpleWImage! Your feedback is invaluable and helps us improve continuously.
