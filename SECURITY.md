@@ -1,21 +1,27 @@
 # Security Policy
 
-## Supported Versions
+## Reporting Vulnerabilities
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+If you discover a security vulnerability, please follow the steps below:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+1. **Do not open a public issue**. Instead, use the contact methods described here.
+2. Email us at **[sellocasadenubes@gmail.com]** with the following details:
+   - A detailed description of the issue.
+   - Steps to reproduce the vulnerability.
+   - Potential impact.
+   - Optional: Suggested solutions or patches.
 
-## Reporting a Vulnerability
+## Response Time
 
-Use this section to tell people how to report a vulnerability.
+We aim to respond within **[X days]** of receiving your report. We will evaluate the issue and work with you to resolve it as quickly as possible.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+## Acknowledgments
+
+We value the contributions of all security researchers and collaborators. If you wish, we can publicly acknowledge your efforts in our release notes or documentation.
+
+## Scope
+
+This policy applies to vulnerabilities related to:
+- **[Specify key areas, such as APIs, public interfaces, specific modules, etc.]**.
+
+For general questions about the project, please use our regular support channels.
