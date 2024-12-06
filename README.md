@@ -2,12 +2,15 @@
 
 SimpleWImage is an innovative desktop application tailored for photographers, designers, and multimedia enthusiasts who need a reliable tool to organize and label their image files efficiently. With its powerful features and user-friendly interface, SimpleWImage simplifies the process of managing extensive image libraries.
 
-Download
+---
+
+## Download
 [Click here to download the EXE application (.zip)](https://drive.google.com/file/d/1u3Y3rU6pkpwbS9q2k5lGKh2Hi6l1v5IQ/view?usp=sharing)
 
-![SimpleWImage Icon](SimpleWImage.png)
----
 For inquiries or feedback, contact me at: [sellocasadenubes@gmail.com](mailto:sellocasadenubes@gmail.com).
+
+![SimpleWImage Icon](SimpleWImage.png)
+
 ---
 
 ## Description
@@ -23,6 +26,7 @@ SimpleWImage is built in Python and designed with practicality in mind. It provi
 - **File Integrity:** Optionally retain the original files for backup or reference.
 - **Real-Time Feedback:** Keep track of progress using an integrated progress bar.
 - **Error Handling:** Smooth operation through detailed error messages for unsupported formats or file path issues.
+- **Multi-Threading Support:** Speeds up the renaming process by utilizing multiple CPU threads for efficiency.
 
 ---
 
@@ -32,6 +36,7 @@ SimpleWImage is built in Python and designed with practicality in mind. It provi
 - **Dark Mode Support:** Enhances user experience with a visually appealing interface suitable for extended use.
 - **Localization Options:** Available in multiple languages to cater to a global audience.
 - **Performance Optimization:** Efficient handling of large batches of images to save time.
+- **Integration with Cloud Storage:** Directly upload renamed files to platforms like Google Drive and Dropbox.
 
 ---
 
@@ -59,16 +64,14 @@ Developed using PyQt5, the UI provides a streamlined experience with intuitive c
 - Preview window.
 - Input fields for custom renaming.
 - Progress bar for process updates.
+- Settings menu for advanced configuration.
 
 ### Core Modules
 1. **File Handler:** Responsible for image loading, renaming, and exporting.
 2. **Preview Manager:** Generates and displays thumbnails of selected files.
 3. **Error Handler:** Displays detailed error messages for invalid operations.
 4. **Performance Engine:** Optimized for handling large datasets without compromising speed or reliability.
-
-### Extended Functionality
-- **Settings Manager:** Allows saving and loading user preferences.
-- **Log Generator:** Creates logs of processed files for auditing or troubleshooting purposes.
+5. **Cloud Integration Module:** Manages uploading files directly to supported cloud platforms.
 
 ---
 
@@ -92,6 +95,7 @@ We welcome contributions! To contribute:
 1. Fork the repository.
 2. Make your changes.
 3. Submit a pull request.
+
 ---
 
 Enjoy using SimpleWImage! Your feedback is invaluable and helps us improve continuously.
