@@ -1,54 +1,73 @@
 # SimpleWImage by Iván Ayub
-This program is particularly useful for photographers, designers, and anyone who needs to keep their image files organized and well-labeled.
+
+This program is designed for photographers, designers, and anyone needing to organize and label their image files efficiently. SimpleWImage provides a seamless experience for managing large image collections with ease.
+
+---
+
 ## Download
 [Click here to download the EXE application (.zip)](https://drive.google.com/file/d/1u3Y3rU6pkpwbS9q2k5lGKh2Hi6l1v5IQ/view?usp=sharing)
 
-For any inquiries or contact, please reach me at sellocasadenubes@gmail.com.
+For inquiries or feedback, contact me at: [sellocasadenubes@gmail.com](mailto:sellocasadenubes@gmail.com).
+
 ![SimpleWImage Icon](SimpleWImage.png)
 
-## Description
-SimpleWImage is a desktop application developed in Python, designed to efficiently rename and organize image files with a functional interface. It’s perfect for managing large image libraries or multimedia projects.
-## Captures
+---
 
-![SimpleWImage Icon](SS.png)
+## Description
+SimpleWImage is a desktop application developed in Python to streamline renaming and organizing image files. Its intuitive interface and robust features make it ideal for photographers, designers, and anyone working on multimedia projects.
+
+---
 
 ## Features
-- **File Selection:** Select multiple image files (e.g., .png, .jpg, .jpeg, .bmp, .gif).
-- **Preview:** View a preview of selected images to easily identify them.
-- **Custom Renaming:** Add a prefix and a sequential number to file names.
-- **Flexible Export:** Save renamed files to a user-selected folder.
-- **Original File Preservation:** Option to keep the original files intact.
-- **Progress Bar:** Display the progress of renaming and exporting processes.
+- **Batch File Selection:** Import multiple image files, including popular formats such as .png, .jpg, .jpeg, .bmp, and .gif.
+- **Visual Preview:** Review thumbnails of selected images for easy identification.
+- **Customizable Renaming:** Append a prefix and add sequential numbering to file names.
+- **Export Flexibility:** Save renamed files to a folder of your choice.
+- **File Safety:** Preserve the original files if desired.
+- **Real-Time Progress Updates:** Monitor renaming and exporting progress via a progress bar.
 
-## Application Structure
-The program is composed of several key components:
-
-1. **Main Interface (UI):** Built with PyQt5, this component handles user interactions, file selection, and process initiation. It includes buttons, input fields, and a preview area for selected images.
-
-2. **File Handler:** This module manages file operations such as loading images, renaming them according to the user’s preferences, and exporting them to the designated folder.
-
-3. **Image Previewer:** Uses PyQt5 widgets to display thumbnails of selected images, allowing users to confirm their selections visually.
-
-4. **Progress Tracker:** Implements a progress bar to provide feedback on the renaming and exporting process, enhancing user experience.
-
-5. **Error Handling:** Ensures smooth operation by catching and displaying errors, such as unsupported file formats or invalid file paths.
+---
 
 ## How to Use
-1. Run the application.
-2. Select the image files you want to rename.
-3. Enter a prefix for the new file names.
-4. Choose the folder where the renamed files will be saved.
-5. (Optional) Check the "Keep original files" option to preserve the original files.
-6. Click on "Rename and Export Files" to start the process.
-7. Monitor the progress and receive a notification upon completion.
+1. Launch the application.
+2. Select image files for renaming.
+3. Enter a custom prefix for new file names.
+4. Choose an output folder for renamed files.
+5. (Optional) Check the "Keep original files" option if you want to retain the originals.
+6. Click "Rename and Export Files" to begin the process.
+7. Monitor the progress and wait for the completion notification.
 
-### Example Use Case
-Imagine you are a photographer with a folder of 500 images from a recent shoot. Using SimpleWImage, you can:
-- Add a descriptive prefix such as "Wedding_2024_".
-- Automatically number the files sequentially.
-- Export the renamed files to a project-specific folder while keeping the originals intact.
+### Example Scenario
+You’re a professional photographer managing a folder with 500 images from a wedding shoot. SimpleWImage enables you to:
+- Add a descriptive prefix like "Wedding_2024_" to all images.
+- Automatically number the files sequentially (e.g., "Wedding_2024_001.jpg").
+- Export renamed files to a project-specific directory while keeping the original files intact for backup.
+
+---
+
+## Captures
+
+![Application Screenshot](SS.png)
+
+---
+
+## Application Structure
+The program is divided into key components:
+
+1. **Main Interface (UI):** Built using PyQt5, it handles user interactions, file selection, and operation triggers. Includes buttons, input fields, and a preview area.
+2. **File Handler:** Manages operations such as image loading, renaming, and exporting to the designated folder.
+3. **Image Previewer:** Displays thumbnails of selected images for easy visual confirmation.
+4. **Progress Tracker:** Implements a progress bar for user feedback during renaming and exporting.
+5. **Error Management:** Catches and displays errors like unsupported formats or invalid paths to ensure smooth operation.
+
+---
 
 ## System Requirements
-- Operating System: Windows
-- Dependencies: Python 3.x, PyQt5
+- **Operating System:** Windows
+- **Dependencies:**
+  - Python 3.x
+  - PyQt5
 
+---
+
+Enjoy using SimpleWImage for your image management tasks! Feel free to share your feedback and suggestions.
