@@ -3,6 +3,7 @@ This program is particularly useful for photographers, designers, and anyone who
 ## Download
 [Click here to download the EXE application (.zip)](https://drive.google.com/file/d/1u3Y3rU6pkpwbS9q2k5lGKh2Hi6l1v5IQ/view?usp=sharing)
 
+For any inquiries or contact, please reach me at sellocasadenubes@gmail.com.
 ![SimpleWImage Icon](SimpleWImage.png)
 
 ## Description
