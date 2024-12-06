@@ -1,6 +1,6 @@
 # SimpleWImage by Iván Ayub
 
-This program is designed for photographers, designers, and anyone needing to organize and label their image files efficiently. SimpleWImage provides a seamless experience for managing large image collections with ease.
+SimpleWImage is an innovative desktop application tailored for photographers, designers, and multimedia enthusiasts who need a reliable tool to organize and label their image files efficiently. With its powerful features and user-friendly interface, SimpleWImage simplifies the process of managing extensive image libraries.
 
 ---
 
@@ -14,60 +14,92 @@ For inquiries or feedback, contact me at: [sellocasadenubes@gmail.com](mailto:se
 ---
 
 ## Description
-SimpleWImage is a desktop application developed in Python to streamline renaming and organizing image files. Its intuitive interface and robust features make it ideal for photographers, designers, and anyone working on multimedia projects.
+SimpleWImage is built in Python and designed with practicality in mind. It provides a robust solution for batch-renaming and organizing image files, ensuring a smooth workflow for professionals and casual users alike.
 
 ---
 
 ## Features
-- **Batch File Selection:** Import multiple image files, including popular formats such as .png, .jpg, .jpeg, .bmp, and .gif.
-- **Visual Preview:** Review thumbnails of selected images for easy identification.
-- **Customizable Renaming:** Append a prefix and add sequential numbering to file names.
-- **Export Flexibility:** Save renamed files to a folder of your choice.
-- **File Safety:** Preserve the original files if desired.
-- **Real-Time Progress Updates:** Monitor renaming and exporting progress via a progress bar.
+- **Batch File Selection:** Quickly import multiple image files in formats such as .png, .jpg, .jpeg, .bmp, and .gif.
+- **Thumbnail Previews:** Easily identify and confirm selected images with visual previews.
+- **Customizable Renaming Options:** Add prefixes and sequential numbering to file names.
+- **Flexible Export Options:** Save renamed files to a designated output folder.
+- **File Integrity:** Optionally retain the original files for backup or reference.
+- **Real-Time Feedback:** Keep track of progress using an integrated progress bar.
+- **Error Handling:** Smooth operation through detailed error messages for unsupported formats or file path issues.
+
+---
+
+## Advanced Features
+- **Drag-and-Drop Functionality:** Simplify file selection by dragging images directly into the application.
+- **Configurable Settings:** Save frequently used renaming presets for repeated tasks.
+- **Dark Mode Support:** Enhances user experience with a visually appealing interface suitable for extended use.
+- **Localization Options:** Available in multiple languages to cater to a global audience.
+- **Performance Optimization:** Efficient handling of large batches of images to save time.
 
 ---
 
 ## How to Use
 1. Launch the application.
-2. Select image files for renaming.
-3. Enter a custom prefix for new file names.
+2. Drag and drop or manually select image files for renaming.
+3. Enter a custom prefix for the new file names.
 4. Choose an output folder for renamed files.
-5. (Optional) Check the "Keep original files" option if you want to retain the originals.
-6. Click "Rename and Export Files" to begin the process.
-7. Monitor the progress and wait for the completion notification.
+5. (Optional) Enable "Keep original files" to preserve existing files.
+6. Click "Rename and Export Files" to start the process.
+7. View progress in real-time and receive a completion notification.
 
 ### Example Scenario
-You’re a professional photographer managing a folder with 500 images from a wedding shoot. SimpleWImage enables you to:
-- Add a descriptive prefix like "Wedding_2024_" to all images.
-- Automatically number the files sequentially (e.g., "Wedding_2024_001.jpg").
-- Export renamed files to a project-specific directory while keeping the original files intact for backup.
-
----
-
-## Captures
-
-![Application Screenshot](SS.png)
+Imagine managing a project folder with hundreds of images from a product photoshoot. SimpleWImage lets you:
+- Add a prefix like "Product_2024_" to maintain consistency.
+- Sequentially number files (e.g., "Product_2024_001.jpg").
+- Export renamed files to a specified directory while keeping originals intact for further edits.
 
 ---
 
 ## Application Structure
-The program is divided into key components:
+### User Interface (UI)
+Developed using PyQt5, the UI provides a streamlined experience with intuitive controls, including:
+- File selection panel.
+- Preview window.
+- Input fields for custom renaming.
+- Progress bar for process updates.
 
-1. **Main Interface (UI):** Built using PyQt5, it handles user interactions, file selection, and operation triggers. Includes buttons, input fields, and a preview area.
-2. **File Handler:** Manages operations such as image loading, renaming, and exporting to the designated folder.
-3. **Image Previewer:** Displays thumbnails of selected images for easy visual confirmation.
-4. **Progress Tracker:** Implements a progress bar for user feedback during renaming and exporting.
-5. **Error Management:** Catches and displays errors like unsupported formats or invalid paths to ensure smooth operation.
+### Core Modules
+1. **File Handler:** Responsible for image loading, renaming, and exporting.
+2. **Preview Manager:** Generates and displays thumbnails of selected files.
+3. **Error Handler:** Displays detailed error messages for invalid operations.
+4. **Performance Engine:** Optimized for handling large datasets without compromising speed or reliability.
+
+### Extended Functionality
+- **Settings Manager:** Allows saving and loading user preferences.
+- **Log Generator:** Creates logs of processed files for auditing or troubleshooting purposes.
 
 ---
 
 ## System Requirements
-- **Operating System:** Windows
+- **Operating System:** Windows 7 or later
 - **Dependencies:**
   - Python 3.x
   - PyQt5
+  - PIL (Python Imaging Library)
 
 ---
 
-Enjoy using SimpleWImage for your image management tasks! Feel free to share your feedback and suggestions.
+## Captures
+![Application Screenshot](SS.png)
+
+---
+
+## Development & Contribution
+### Contributions
+We welcome contributions! To contribute:
+1. Fork the repository.
+2. Make your changes.
+3. Submit a pull request.
+
+### Development Environment
+- **Setup:** Clone the repository and install dependencies using `pip install -r requirements.txt`.
+- **Testing:** Ensure all features work as intended by running `pytest`.
+
+---
+
+Enjoy using SimpleWImage! Your feedback is invaluable and helps us improve continuously.
