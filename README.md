@@ -8,6 +8,9 @@ For any inquiries or contact, please reach me at sellocasadenubes@gmail.com.
 
 ## Description
 SimpleWImage is a desktop application developed in Python, designed to efficiently rename and organize image files with a functional interface. It’s perfect for managing large image libraries or multimedia projects.
+## Captures
+
+![SimpleWImage Icon](SS.png)
 
 ## Features
 - **File Selection:** Select multiple image files (e.g., .png, .jpg, .jpeg, .bmp, .gif).
