@@ -61,8 +61,6 @@ Developed using PyQt5, the UI provides a streamlined experience with intuitive c
 2. **Preview Manager:** Generates and displays thumbnails of selected files.
 3. **Error Handler:** Displays detailed error messages for invalid operations.
 4. **Performance Engine:** Optimized for handling large datasets without compromising speed or reliability.
-5. **Cloud Integration Module:** Manages uploading files directly to supported cloud platforms.
-
 ---
 
 ## System Requirements
