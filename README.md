@@ -30,16 +30,6 @@ SimpleWImage is built in Python and designed with practicality in mind. It provi
 
 ---
 
-## Advanced Features
-- **Drag-and-Drop Functionality:** Simplify file selection by dragging images directly into the application.
-- **Configurable Settings:** Save frequently used renaming presets for repeated tasks.
-- **Dark Mode Support:** Enhances user experience with a visually appealing interface suitable for extended use.
-- **Localization Options:** Available in multiple languages to cater to a global audience.
-- **Performance Optimization:** Efficient handling of large batches of images to save time.
-- **Integration with Cloud Storage:** Directly upload renamed files to platforms like Google Drive and Dropbox.
-
----
-
 ## How to Use
 1. Launch the application.
 2. Drag and drop or manually select image files for renaming.
