@@ -78,6 +78,16 @@ Developed using PyQt5, the UI provides a streamlined experience with intuitive c
 ---
 
 ## Development & Contribution
+### Credits
+This software utilizes the following libraries:
+- **PyQt5**: [PyQt5](https://pypi.org/project/PyQt5/) for creating the graphical user interface, providing widgets and layout management.
+- **PIL (Python Imaging Library)**: For handling image loading and processing.
+- **sys**: Provides access to system-specific parameters and functions.
+- **os**: Standard library for interacting with the operating system.
+- **base64**: Handles encoding and decoding of data in base64 format.
+
+Special thanks to the developers of these libraries for their contributions to the open-source community.
+
 ### Contributions
 We welcome contributions! To contribute:
 1. Fork the repository.
