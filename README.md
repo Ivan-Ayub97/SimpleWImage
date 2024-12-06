@@ -1,4 +1,4 @@
-# SimpleWImage
+# SimpleWImage by Iván Ayub
 This program is particularly useful for photographers, designers, and anyone who needs to keep their image files organized and well-labeled.
 ## Download
 [Click here to download the EXE application (.zip)](https://drive.google.com/file/d/1u3Y3rU6pkpwbS9q2k5lGKh2Hi6l1v5IQ/view?usp=sharing)
