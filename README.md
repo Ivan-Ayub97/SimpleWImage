@@ -95,11 +95,6 @@ We welcome contributions! To contribute:
 1. Fork the repository.
 2. Make your changes.
 3. Submit a pull request.
-
-### Development Environment
-- **Setup:** Clone the repository and install dependencies using `pip install -r requirements.txt`.
-- **Testing:** Ensure all features work as intended by running `pytest`.
-
 ---
 
 Enjoy using SimpleWImage! Your feedback is invaluable and helps us improve continuously.
