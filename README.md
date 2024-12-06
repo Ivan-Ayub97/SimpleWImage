@@ -5,7 +5,7 @@ SimpleWImage is an innovative desktop application tailored for photographers, de
 ![SimpleWImage Icon](SimpleWImage.png)
 ---
 
-## Download
+Download
 [Click here to download the EXE application (.zip)](https://drive.google.com/file/d/1u3Y3rU6pkpwbS9q2k5lGKh2Hi6l1v5IQ/view?usp=sharing)
 
 For inquiries or feedback, contact me at: [sellocasadenubes@gmail.com](mailto:sellocasadenubes@gmail.com).
