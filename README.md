@@ -54,7 +54,6 @@ Developed using PyQt5, the UI provides a streamlined experience with intuitive c
 - Preview window.
 - Input fields for custom renaming.
 - Progress bar for process updates.
-- Settings menu for advanced configuration.
 
 ### Core Modules
 1. **File Handler:** Responsible for image loading, renaming, and exporting.
