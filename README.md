@@ -1,4 +1,5 @@
-# SimpleWImage by Iván Ayub
+# SimpleWImage
+Developed by Iván Ayub
 
 SimpleWImage is an innovative desktop application tailored for photographers, designers, and multimedia enthusiasts who need a reliable tool to organize and label their image files efficiently. With its powerful features and user-friendly interface, SimpleWImage simplifies the process of managing extensive image libraries.
 
